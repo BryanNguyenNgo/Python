@@ -1,0 +1,12 @@
+import turtle
+a = input("How many steps you want the turtle to move forward?: ")
+a = int(a)
+turtle.shape('turtle')
+turtle.forward(a)
+turtle.left(90)
+turtle.forward(a)
+turtle.left(90)
+turtle.forward(a)
+turtle.left(90)
+turtle.forward(a)
+turtle.mainloop()
